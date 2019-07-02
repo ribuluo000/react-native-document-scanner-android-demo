@@ -1,0 +1,10 @@
+rootProject.name = 'scanner56_3'
+include ':react-native-document-scanner'
+project(':react-native-document-scanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-document-scanner/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+include ':react-native-perspective-image-cropper'
+project(':react-native-perspective-image-cropper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-perspective-image-cropper/android')
+include ':openCVLibrary310'
+project(':openCVLibrary310').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-perspective-image-cropper/android/openCVLibrary310')
+include ':app'
